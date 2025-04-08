@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
 import { employeeService } from '../services/employeeService';
-import { departments } from '../mock/departments';
-import { positions } from '../mock/positions';
+import departments from '../mock/departments';
+import positions from '../mock/positions';
 import { Employee } from '../mock/employees';
 
 const EmployeeFormPage = () => {
